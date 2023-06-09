@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pA1 | grep -v '/$' | LC_ALL=C.UTF-8 sort -dfk1.1 | tr '\n' ','; echo
+ls -amvp
